@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.links p {
+    display: flex;
+
+    width: 6rem;
+    height: 3rem;
+
+    margin: 1rem 0;
+}
+
+.links p,
+.links a {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+.links a {
+    margin: auto;
+}
+
+/* Link 1 */
+p#item1 a {
+    color: #FFD201;
+}
+
+p#item1 {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+p#item1:hover {
+    cursor: pointer;
+    border-top: 1px solid #FFD201;
+    border-bottom: 1px solid #FFD201;
+}
+
+/* Link 2 */
+
+p#item2 {
+    border-bottom: 2px solid transparent;
+}
+
+p#item2 a {
+    color: #969696;
+    text-shadow: 1px 1px #000;
+}
+
+p#item2:hover :only-child {
+    color: #F54318;
+
+}
+
+p#item2:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #F54318;
+    box-shadow: 0px 1px #fff, 0px 2px #969696;
+}
+
+/* Link 3 */
+
+p#item3 {
+    border: 2px solid transparent;
+}
+
+p#item3 a {
+    color: #BA7D67;
+}
+
+p#item3:hover {
+    cursor: pointer;
+    border: 2px solid #BA7D67;
+}
+
+/* Link 4 */
+
+p#item4 a {
+    color: #2AABBA;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p#item4:hover :only-child {
+    color: #C9D414;
+}
+
+p#item4:hover {
+    cursor: pointer;
+}
+
+/* Link 5 */
+
+p#item5 a {
+    transition-duration: 0.15s;
+    color: #CBB8AA;
+}
+
+p#item5 {
+    transition-duration: 0.15s;
+    text-shadow: 1px 1px #fff, 2px 2px #746A61;
+}
+
+p#item5:hover {
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #746A61;
+}
+
+/* Link 6 */
+
+p#item6 a {
+    color: #E7805E;
+}
+
+p#item6 {
+    border-bottom: 1px dashed #E7805E;
+}
+
+p#item6:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #9B8381;
+}
+
+/* Link 7 */
+
+p#item7 a {
+    color: #D5A39C;
+}
+
+p#item7 {
+    transition-duration: 0.15s;
+}
+
+p#item7:hover {
+    cursor: pointer;
+    letter-spacing: 0.2ch;
+}
+
+/* Link 8 */
+
+p#item8 a {
+    color: #92B8C5;
+    text-shadow: 1px 1px 1px #4D575D;
+}
+
+p#item8:hover {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+/* Link 9 */
+
+p#item9 a {
+    color: #B2BBC0;
+    text-shadow: 1px 0px #4D575D;
+}
+
+p#item9:hover {
+    cursor: pointer;
+    transform: rotate(-5deg);
+}
